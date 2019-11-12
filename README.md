@@ -14,5 +14,18 @@ This project build a command line tool to automatically do this work.
 virtualenv env
 source ./env/bin/activate
 pip install -r requirements.txt
-python3 main.py "www.google.com"
+python3 scc.py -hn "www.google.com"
+```
+
+## Help
+```bash
+python3 scc.py -h
+```
+Check all available options.
+```
+  -h, --help              show this help message and exit
+  -hn ["HOST_NAME"]       python3 scc.py ['host name']
+  -debug                  debug mode
+  -save                   save HTTP header file
+  -buffer [BUFFER_SIZE]   set buffer size to store http header and body
 ```
