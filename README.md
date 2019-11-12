@@ -9,3 +9,10 @@ This project build a command line tool to automatically do this work.
 - [ ] According to the status codes, return true or false (or some other status)
 - [ ] Run this command in background using "systemd". When the site response, send a alert.
 
+## Run
+```bash
+virtualenv env
+source ./env/bin/activate
+pip install -r requirements.txt
+python3 main.py "www.google.com"
+```
