@@ -1,5 +1,7 @@
 # Site Connectivity Checker (command line tool)
 [![Build Status](https://travis-ci.com/zzdqqqq/Site-Connectivity-Checker.svg?branch=master)](https://travis-ci.com/zzdqqqq/Site-Connectivity-Checker)
+![GitHub](https://img.shields.io/github/license/zzdqqqq/Site-Connectivity-Checker)
+![GitHub last commit](https://img.shields.io/github/last-commit/zzdqqqq/Site-Connectivity-Checker)
 ## Motivation
 When you visit a URL, you expect to get the requested pages on your browser. But this is not always the case. Sometimes, sites can be down, so you won’t get the desired results. You can keep trying until it comes up.
 
