@@ -8,8 +8,8 @@ When you visit a URL, you expect to get the requested pages on your browser. But
 This project build a command line tool to automatically do this work.
 
 ## TODO
-- [ ] Conenct to a website by TCP protocol (Compared to ICMP TCP can get more information)
-- [ ] According to the status codes, return true or false (or some other status)
+- [x] Conenct to a website by TCP protocol (Compared to ICMP TCP can get more information)
+- [x] According to the status codes, return true or false (or some other status)
 - [ ] Run this command in background using "systemd". When the site response, send a alert.
 
 ## Run
