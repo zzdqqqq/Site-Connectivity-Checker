@@ -32,3 +32,13 @@ Check all available options.
   -save                   save HTTP header file
   -buffer [BUFFER_SIZE]   set buffer size to store http header and body
 ```
+
+## Example
+```bash
+python3 scc.py -hn www.google.com 
+```
+![pic1](./pic/1.png)
+```bash
+python3 scc.py -hn www.google.com -debug -buffer 40
+```
+![pic2](./pic/2.png)
